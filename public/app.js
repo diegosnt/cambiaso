@@ -269,9 +269,7 @@ function crearTarjetaMoneda(moneda, monto, monedaOrigenCodigo) {
         <div class="cotizacion-info">
             ${textoCotizacion}
         </div>
-        <div class="currency-value" id="value-${moneda.codigoMoneda}">
-            ${valorMostrar}
-        </div>
+        <div class="currency-value" id="value-${moneda.codigoMoneda}">${valorMostrar}</div>
     `;
 
     return card;
